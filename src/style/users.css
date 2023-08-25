@@ -1,0 +1,47 @@
+.addUser {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background-color: cornflowerblue;
+  color: antiquewhite;
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #aaa;
+  cursor: pointer;
+}
+
+.addUser:hover {
+  transform: scale(1.03);
+  transition: ease-in-out 0.1s;
+}
+
+.usersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+  margin: 100px auto;
+}
+
+.userCard {
+  border: 2px solid #ededed;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 4px #eee;
+  cursor: pointer;
+}
+
+.userCard:hover {
+  transform: scale(1.05);
+  transition: ease-in-out 100ms;
+}
+
+.userCard img {
+  height: 100px;
+}
+
+.userCard p {
+  text-align: center;
+}

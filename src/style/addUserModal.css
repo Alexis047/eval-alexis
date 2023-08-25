@@ -1,0 +1,59 @@
+.addUserForm {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(237, 237, 237, 0.7);
+  z-index: 4;
+}
+
+.addUserForm form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.labelContainer {
+  margin: 10px;
+}
+
+.labelContainer input {
+  border: none;
+  border-bottom: 1px solid #ededed;
+}
+
+.labelContainer select {
+  background-color: white;
+  border-style: none;
+  border: 1px solid #ededed;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.addUserForm button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.addUserForm button[type="submit"] {
+  background-color: cornflowerblue;
+  color: antiquewhite;
+}
+
+.addUserForm button[type="submit"]:hover {
+  background-color: rgb(100, 149, 237, 0.8);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
